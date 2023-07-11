@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Four card feature section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+</head>
+
+<body class="md:h-screen py-2 ">
+
+  <main class="p-4 md:p-8 flex flex-col items-center justify-center gap-6 max-w-6xl min-h-4/5 shadow-xl ">
+    <section class="hero flex flex-col items-center gap-1 ">
+      <p class="font-bold">Reliable, efficient delivery</p>
+      <h1 class="text-center">Powered by Technology</h1>
+      <p  class="text-center"><small>Our artificial intellingence powered tools use millions of project data points to ensure that your
+          project is successful.</small></p>
+    </section>
+
+    <section class="cards-container max-w-3xl flex flex-col sm:flex-row jusify-center items-center gap-4">
+      <article class="left w-full">
+        <div class="card shadow-lg shadow-slate-300 min-w-full">
+          <h2>Supervisor</h2>
+          <p>Monitor activity to identify project roadblocks</p>
+          <div class="imgbx w-full">
+            <img src="images/icon-supervisor.svg" alt="" class="">
+          </div>
+        </div>
+      </article>
+
+      <article class="center flex flex-col gap-4 w-full">
+        <div class="top">
+          <div class="card shadow-lg shadow-slate-300  min-w-full">
+            <h2>Team Builder</h2>
+            <p>Scan our talent network to create the optimal team for your project</p>
+            <div class="imgbx">
+              <img src="images/icon-team-builder.svg" alt="">
+            </div>
+
+          </div>
+        </div>
+        <div class="bottom">
+
+          <div class="card shadow-lg shadow-slate-300 min-w-full">
+            <h2 class="">Karma</h2>
+            <p>Regularly evaluates out talent to ensure quality</p>
+            <div class="imgbx">
+              <img src="images/icon-karma.svg" alt="">
+            </div>
+
+          </div>
+        </div>
+      </article>
+
+      <article class="right w-full">
+        <div class="card shadow-lg shadow-slate-300 min-w-full">
+          <h2>Calculator</h2>
+          <p>Uses data from past projects to provide better delivery estimates</p>
+          <div class="imgbx">
+            <img src="images/icon-calculator.svg" alt="">
+          </div>
+
+        </div>
+      </article>
+    </section>
+  </main>
+
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Suru Emmanuel</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
